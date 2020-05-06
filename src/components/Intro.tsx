@@ -1,11 +1,11 @@
-import React from 'react'
-import styled from '@emotion/styled'
+import React from "react"
+import styled from "@emotion/styled"
 
-import Image from './image'
+import Image from "./image"
 
 export const Intro = () => {
-    return (
-        <IntroContainer>
+  return (
+    <IntroContainer>
       <div>
         <h1>
           Hi there.
@@ -16,11 +16,11 @@ export const Intro = () => {
           master new technologies.
         </p>
       </div>
-      <div style={{ width: '40%', maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <div style={{ width: "40%", maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
     </IntroContainer>
-    )
+  )
 }
 
 const IntroContainer = styled.div`
@@ -32,6 +32,8 @@ const IntroContainer = styled.div`
     font-size: 3rem;
   }
   p {
+    font-size: 28px;
+    line-height: 1;
     color: black;
     padding-right: 10%;
   }
