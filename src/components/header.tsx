@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React, { FC } from "react"
 import styled from "@emotion/styled"
 import { Dropdown } from "./Dropdown"

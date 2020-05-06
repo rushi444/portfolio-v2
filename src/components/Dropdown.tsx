@@ -10,11 +10,10 @@ export const Dropdown: FC = () => {
           <a href="https://github.com/rushi444">Github</a>
         </Link>
         <Link>
-          <a href="https://www.linkedin.com/in/rushi-arumalla/" />
-          LinkedIn
+          <a href="https://www.linkedin.com/in/rushi-arumalla/">LinkedIn</a>
         </Link>
         <Link>
-          <a href="" />
+          <a href="https://resume.creddle.io/resume/4u4rwrybeaw">Resume</a>
         </Link>
       </LinksContainer>
     </DropdownContainer>
@@ -22,9 +21,9 @@ export const Dropdown: FC = () => {
 }
 
 const DropdownContainer = styled.div`
-position: relative;
-display: inline-block;
-margin-right: 20%;
+  position: relative;
+  display: inline-block;
+  margin-right: 20%;
   :hover {
     ul {
       display: block;
@@ -39,13 +38,12 @@ const LinksTitle = styled.h4`
 `
 
 const LinksContainer = styled.ul`
-  border: 2px solid black;
   display: block;
   margin: 0 auto;
   display: none;
   position: absolute;
   li:last-child {
-    border-bottom: none;
+    border-bottom: 2px solid black;
   }
 `
 
@@ -54,9 +52,17 @@ const Link = styled.li`
   padding: 0 0.5rem;
   color: black;
   margin: 0;
-  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  :hover {
+    background-color: lightgray;
+  }
   a {
     color: black;
     text-decoration: none;
+    :hover {
+      text-decoration: underline;
+    }
   }
 `
