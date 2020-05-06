@@ -42,6 +42,7 @@ const LinksContainer = styled.ul`
   margin: 0 auto;
   display: none;
   position: absolute;
+  z-index: 10;
   li:last-child {
     border-bottom: 2px solid black;
   }
@@ -55,6 +56,7 @@ const Link = styled.li`
   border-top: 2px solid black;
   border-left: 2px solid black;
   border-right: 2px solid black;
+  background-color: white;
   :hover {
     background-color: lightgray;
   }
