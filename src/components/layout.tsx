@@ -38,10 +38,21 @@ const Layout: FC<IProps> = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer style={{ marginTop: "2%", color: 'black' }}>
+          More projects on my Github:
+          <a
+            style={{ textDecoration: "underlined", color: "black" }}
+            href="https://github.com/rushi444"
+          >
+            rushi444
+          </a>
+          , feel free to reach out to me at{" "}
+          <a
+            style={{ textDecoration: "underlined", color: "black" }}
+            href="mailto:rushi44@gmail.com"
+          >
+            rushi44@gmail.com
+          </a>
         </footer>
       </div>
     </>

@@ -15,6 +15,9 @@ export const Dropdown: FC = () => {
         <Link>
           <a href="https://resume.creddle.io/resume/4u4rwrybeaw">Resume</a>
         </Link>
+        <Link>
+        <a href="mailto:rushi44@gmail.com">Email</a>
+        </Link>
       </LinksContainer>
     </DropdownContainer>
   )

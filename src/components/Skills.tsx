@@ -21,6 +21,7 @@ export const Skills = () => {
           <li>Django</li>
           <li>PostgreSQL</li>
           <li>MongoDB</li>
+          <li>Docker</li>
           <li>Git</li>
           <li>Github</li>
         </ul>
