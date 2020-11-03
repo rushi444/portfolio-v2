@@ -12,7 +12,8 @@ export const Intro = () => {
           <br /> I'm Rushi.
         </h1>
         <p>
-          I'm a Full Stack Developer
+          I'm a Full Stack Developer currently working @ Northwestern
+          Mutual
         </p>
       </div>
       <div style={{ width: "40%", maxWidth: `300px`, marginBottom: `1.45rem` }}>
